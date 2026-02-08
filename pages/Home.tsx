@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { CORE_VALUES, PRACTICE_AREAS } from '../constants';
+import { CORE_VALUES, PRACTICE_AREAS } from '../constants.tsx';
 
 const HERO_IMAGES = [
   "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&q=80&w=2000",

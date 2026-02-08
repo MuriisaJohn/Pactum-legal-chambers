@@ -1,5 +1,5 @@
 
-import { PracticeArea, NavLink, Value } from './types';
+import { PracticeArea, NavLink, Value } from './types.ts';
 
 export const NAV_LINKS: NavLink[] = [
   { label: 'Home', path: '/' },

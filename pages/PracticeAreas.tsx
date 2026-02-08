@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { PRACTICE_AREAS } from '../constants';
+import { PRACTICE_AREAS } from '../constants.tsx';
 
 const PracticeAreas: React.FC = () => {
   return (
