@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar.tsx';
 import Footer from './components/Footer.tsx';
@@ -18,18 +18,11 @@ const ScrollToTop = () => {
 };
 
 const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark');
-  };
-
   return (
     <Router>
       <ScrollToTop />
-      <div className={`min-h-screen flex flex-col ${darkMode ? 'dark' : ''}`}>
-        <Navbar darkMode={darkMode} onToggleDarkMode={toggleDarkMode} />
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />

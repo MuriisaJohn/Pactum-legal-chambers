@@ -85,7 +85,7 @@ const Home: React.FC = () => {
             </h1>
             
             <p className="mt-10 md:mt-14 text-slate-200 text-lg md:text-2xl lg:text-3xl max-w-3xl leading-relaxed font-light animate-in fade-in duration-1000 delay-500">
-              A premier Ugandan law firm grounded in Christian values and dedicated to your legal success through ethical excellence and professional stewardship.
+              A premier Ugandan law firm grounded in Christian values, prioritizing juvenile justice, and dedicated to your legal success through ethical excellence.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 mt-14 md:mt-18 animate-in fade-in slide-in-from-bottom duration-1000 delay-700">
@@ -189,7 +189,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-5xl md:text-6xl font-serif dark:text-white leading-tight font-bold">Advanced Legal Solutions for Complex Times</h3>
               <p className="text-2xl text-slate-600 dark:text-slate-400 leading-relaxed font-light">
-                Whether navigating land transactions or complex corporate litigation, our team provides the clarity and moral fortitude required to protect your interests in the heart of Uganda.
+                Whether advocating for a child in juvenile court or navigating complex corporate litigation, our team provides the clarity and moral fortitude required to protect your interests.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-6">
@@ -231,8 +231,8 @@ const Home: React.FC = () => {
               Book Consultation
               <span className="material-symbols-outlined ml-4 text-4xl group-hover:translate-x-3 transition-transform">calendar_month</span>
             </Link>
-            <a href="tel:+256414123456" className="h-24 px-20 border-3 border-white/20 text-white rounded-[2rem] font-bold text-3xl hover:bg-white/10 transition-all flex items-center justify-center gap-6 backdrop-blur-md">
-              <span className="material-symbols-outlined text-5xl">phone_in_talk</span> +256 414 123 456
+            <a href="tel:+256752146252" className="h-24 px-12 border-3 border-white/20 text-white rounded-[2rem] font-bold text-2xl md:text-3xl hover:bg-white/10 transition-all flex items-center justify-center gap-4 md:gap-6 backdrop-blur-md">
+              <span className="material-symbols-outlined text-4xl md:text-5xl">phone_in_talk</span> +256 752 146 252
             </a>
           </div>
         </div>

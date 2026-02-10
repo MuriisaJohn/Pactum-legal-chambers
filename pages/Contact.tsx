@@ -5,14 +5,14 @@ const Contact: React.FC = () => {
   const [formState, setFormState] = useState({
     name: '',
     email: '',
-    subject: 'Corporate & Commercial Law',
+    subject: 'Juvenile Justice & Child Rights',
     message: ''
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert("Thank you for your inquiry. A member of the Pactum Legal team will contact you shortly.");
-    setFormState({ name: '', email: '', subject: 'Corporate & Commercial Law', message: '' });
+    setFormState({ name: '', email: '', subject: 'Juvenile Justice & Child Rights', message: '' });
   };
 
   return (
@@ -38,8 +38,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-bold dark:text-white">Main Chambers</h3>
                   <p className="mt-2 text-slate-600 dark:text-slate-400 leading-relaxed">
-                    Plot 12, Nakasero Road<br />
-                    PO Box 4567, Kampala, Uganda
+                    Plot 822, Rubaga Road<br />
+                    Kampala, Uganda
                   </p>
                 </div>
               </div>
@@ -49,8 +49,8 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold dark:text-white">Direct Support</h3>
-                  <p className="mt-2 text-slate-600 dark:text-slate-400">+256 414 123 456</p>
-                  <p className="text-slate-600 dark:text-slate-400">+256 700 987 654</p>
+                  <p className="mt-2 text-slate-600 dark:text-slate-400">+256 752 146 252</p>
+                  <p className="text-slate-600 dark:text-slate-400">+256 789 171 032</p>
                 </div>
               </div>
               <div className="flex gap-6">
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-white/95 dark:bg-background-dark/95 backdrop-blur p-4 rounded-xl shadow-lg flex justify-between items-center">
-                  <span className="text-sm font-semibold dark:text-white">Nakasero, Kampala Office</span>
+                  <span className="text-sm font-semibold dark:text-white">Rubaga, Kampala Office</span>
                   <button className="text-primary text-sm font-bold flex items-center gap-1">
                     Get Directions <span className="material-symbols-outlined text-sm">open_in_new</span>
                   </button>
@@ -117,6 +117,7 @@ const Contact: React.FC = () => {
                     value={formState.subject}
                     onChange={e => setFormState({...formState, subject: e.target.value})}
                   >
+                    <option>Juvenile Justice & Child Rights</option>
                     <option>Corporate & Commercial Law</option>
                     <option>Family & Succession</option>
                     <option>Real Estate & Land</option>

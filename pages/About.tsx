@@ -37,6 +37,11 @@ const About: React.FC = () => {
               <p>
                 Pactum Legal Chambers was founded on the conviction that legal practice is more than a profession—it is a stewardship of justice. Named after the Latin word for 'Covenant', our firm reflects our deep-rooted commitment to our clients and our Creator.
               </p>
+              <div className="p-6 bg-primary/5 border-l-4 border-primary rounded-r-xl">
+                <p className="font-medium text-slate-900 dark:text-white">
+                  A paramount priority of our practice is our unwavering commitment to <strong className="text-primary">juvenile justice</strong>. We actively go to court to represent children in conflict with the law, recognizing that these young individuals require compassionate, fierce, and specialized representation. We stand in the gap for vulnerable youth, advocating for their rehabilitation rather than mere punishment, and fighting to protect their futures.
+                </p>
+              </div>
               <p>
                 In an era where legal complexities are growing, we remain steadfast in our mission to provide sophisticated counsel through the lens of integrity. We believe that true advocacy requires both a sharp legal mind and a humble heart.
               </p>

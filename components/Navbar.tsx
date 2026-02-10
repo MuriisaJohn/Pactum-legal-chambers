@@ -3,12 +3,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { NAV_LINKS } from '../constants.tsx';
 
-interface NavbarProps {
-  darkMode: boolean;
-  onToggleDarkMode: () => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ darkMode, onToggleDarkMode }) => {
+const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
@@ -45,16 +40,6 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, onToggleDarkMode }) => {
 
         {/* Right Side Actions */}
         <div className="flex items-center gap-6 shrink-0">
-          <button
-            onClick={onToggleDarkMode}
-            className="p-3 rounded-xl text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
-            aria-label="Toggle Dark Mode"
-          >
-            <span className="material-symbols-outlined text-2xl">
-              {darkMode ? 'light_mode' : 'dark_mode'}
-            </span>
-          </button>
-          
           <Link
             to="/contact"
             className="hidden lg:flex items-center justify-center rounded-lg h-12 px-10 bg-primary text-white text-[15px] font-black hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20"

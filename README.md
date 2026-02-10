@@ -1,13 +1,16 @@
+
 # Pactum Legal Chambers
 
-A high-end, professionally designed web application for a premier Ugandan law firm. Pactum Legal Chambers is grounded in Christian values and dedicated to legal success through ethical excellence and professional stewardship.
+A high-end, professionally designed web application for a premier Ugandan law firm. Pactum Legal Chambers is grounded in Christian values, prioritizes juvenile justice, and is dedicated to legal success through ethical excellence and professional stewardship.
 
 ## 🏛️ About the Project
 
-This project serves as the digital home for Pactum Legal Chambers, a law firm based in Nakasero, Kampala. The application focuses on conveying trust, authority, and moral integrity through a "Cinematic Architectural" design language. It is optimized for local SEO in the legal sector and provides a seamless experience for clients seeking consultation in Land Law, Family Law, Corporate Law, and Dispute Resolution.
+This project serves as the digital home for Pactum Legal Chambers, a law firm based in Rubaga, Kampala. The application focuses on conveying trust, authority, and moral integrity through a "Cinematic Architectural" design language. It is optimized for local SEO in the legal sector and provides a seamless experience for clients seeking consultation. 
+
+A central cornerstone of the firm is **Juvenile Justice and Child Rights**, actively representing children in conflict with the law to fight for their rehabilitation and futures. The firm also offers expert services in Land Law, Family Law, Corporate Law, and Dispute Resolution.
 
 ### Core Philosophy
-- **Justice**: Truth without compromise.
+- **Justice**: Truth without compromise, and fierce advocacy for the marginalized and vulnerable youth.
 - **Integrity**: Radical transparency and honesty.
 - **Stewardship**: Legal expertise as a gift for community benefit.
 

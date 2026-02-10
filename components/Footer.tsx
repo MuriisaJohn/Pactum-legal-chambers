@@ -29,6 +29,7 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-white font-bold mb-6">Practice Areas</h4>
           <ul className="space-y-4 text-sm">
+            <li><Link to="/practice-areas" className="hover:text-accent-gold transition-colors">Juvenile Justice</Link></li>
             <li><Link to="/practice-areas" className="hover:text-accent-gold transition-colors">Corporate Law</Link></li>
             <li><Link to="/practice-areas" className="hover:text-accent-gold transition-colors">Land Transactions</Link></li>
             <li><Link to="/practice-areas" className="hover:text-accent-gold transition-colors">Family & Succession</Link></li>
@@ -41,11 +42,12 @@ const Footer: React.FC = () => {
           <ul className="space-y-4 text-sm">
             <li className="flex gap-3">
               <span className="material-symbols-outlined text-accent-gold">location_on</span>
-              <span>Plot 12, Nakasero Road<br />Kampala, Uganda</span>
+              <span> Plot 822, Rubaga Road<br />Kampala, Uganda</span>
             </li>
             <li className="flex gap-3">
               <span className="material-symbols-outlined text-accent-gold">call</span>
-              <span>+256 414 123 456</span>
+              <span>+256 752 146 252 / +256 789 171 032</span>
+              
             </li>
             <li className="flex gap-3">
               <span className="material-symbols-outlined text-accent-gold">mail</span>

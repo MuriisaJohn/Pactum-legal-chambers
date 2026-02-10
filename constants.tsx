@@ -12,7 +12,7 @@ export const NAV_LINKS: NavLink[] = [
 export const CORE_VALUES: Value[] = [
   {
     title: 'Justice',
-    description: 'We pursue truth without compromise, advocating for the rights of the marginalized and the integrity of the law.',
+    description: 'We pursue truth without compromise, advocating fiercely for the marginalized—especially children in conflict with the law—and the integrity of the legal system.',
     icon: 'balance',
   },
   {
@@ -29,12 +29,12 @@ export const CORE_VALUES: Value[] = [
 
 export const PRACTICE_AREAS: PracticeArea[] = [
   {
-    id: 'land-law',
-    title: 'Land Law & Conveyancing',
-    description: 'Strategic expertise in land acquisition, title processing, and complex real estate transactions within the Ugandan legal framework.',
-    icon: 'landscape',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAHnqc2EC-p4cZMOlUdZvxh32Bv-LhgJzN5H_lPv63m_sr9DzOzMTXRQAZivVaywyrQF5V7efSoKxVr-qn4ou_8vpL8wVDM6atrAHgVqyoV7nSkKmgpUzDFygm_ohYdIoXvo3L0Kf7EbaxNSEO3-2VGn0k5uu8UFb9EDGSgrKG2eGfT0kB8r6EuCXLuL-rOyY00lT6a8NqPYjHLZDGKQeCNAEJhb8cAXpo7O69abozElHglzfYzp5JNjZnnli5D31sJDsRunX4oyss',
-    features: ['Title Processing', 'Lease Negotiations', 'Real Estate Disputes']
+    id: 'juvenile-justice',
+    title: 'Juvenile Justice & Child Rights',
+    description: 'A cornerstone of our firm. We actively go to court to represent children in conflict with the law, fiercely advocating for their rehabilitation, fair treatment, and future.',
+    icon: 'volunteer_activism',
+    imageUrl: 'https://images.unsplash.com/photo-1502781252888-9143ba7f074e?auto=format&fit=crop&q=80&w=1200',
+    features: ['Court Representation', 'Rehabilitation Advocacy', 'Rights Protection']
   },
   {
     id: 'family-law',
@@ -43,6 +43,14 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     icon: 'family_restroom',
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAFccJ-rsVqxgx2aHQ2OD-Vq7jwKEf4Bdc9uzr4G7YfKohTSC4V5Z6cmTvgqtj5fgDOtIUVb_gqQZv8NGhQz00HCUiff-X-p1ND5oYuWLcykNN4VEXjz1GiI3RR_YojetfEih9Wylp2-NWHZ3StgrAYoS-gp_MqkYQ5o5CO46oGtzcicMcbzCJwmx2TCx7pJoONXQO2WXceGu8DwoPz2weO9pI3RDIhBZcD_Na4unGFdL-H7hRuay_jN1z3oWhTgEg6Euw5fTsCBgw',
     features: ['Divorce & Separation', 'Probate & Wills', 'Child Custody']
+  },
+  {
+    id: 'land-law',
+    title: 'Land Law & Conveyancing',
+    description: 'Strategic expertise in land acquisition, title processing, and complex real estate transactions within the Ugandan legal framework.',
+    icon: 'landscape',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAHnqc2EC-p4cZMOlUdZvxh32Bv-LhgJzN5H_lPv63m_sr9DzOzMTXRQAZivVaywyrQF5V7efSoKxVr-qn4ou_8vpL8wVDM6atrAHgVqyoV7nSkKmgpUzDFygm_ohYdIoXvo3L0Kf7EbaxNSEO3-2VGn0k5uu8UFb9EDGSgrKG2eGfT0kB8r6EuCXLuL-rOyY00lT6a8NqPYjHLZDGKQeCNAEJhb8cAXpo7O69abozElHglzfYzp5JNjZnnli5D31sJDsRunX4oyss',
+    features: ['Title Processing', 'Lease Negotiations', 'Real Estate Disputes']
   },
   {
     id: 'corporate-law',
