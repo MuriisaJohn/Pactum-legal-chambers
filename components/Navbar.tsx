@@ -16,8 +16,8 @@ const Navbar: React.FC = () => {
             <span className="material-symbols-outlined text-white text-3xl">balance</span>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-2xl font-black tracking-tight text-primary dark:text-white leading-none">PACTUM</h1>
-            <p className="text-[10px] font-bold tracking-[0.3em] text-accent-gold uppercase mt-1">Legal Chambers</p>
+            <h1 className="text-2xl font-black tracking-tight text-primary dark:text-white leading-none">Verbum</h1>
+            <p className="text-[10px] font-bold tracking-[0.3em] text-accent-gold uppercase mt-1"> Justice Center.</p>
           </div>
         </Link>
 
