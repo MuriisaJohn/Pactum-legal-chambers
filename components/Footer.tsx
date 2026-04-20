@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <div className="size-8 bg-primary flex items-center justify-center rounded">
               <span className="material-symbols-outlined text-white text-lg">gavel</span>
             </div>
-            <h2 className="text-lg font-bold text-white tracking-tight">PACTUM LEGAL</h2>
+            <h2 className="text-lg font-bold text-white tracking-tight">Verbum Justice Center.</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-sm">
             Premium legal services grounded in the values of justice and stewardship. Serving Uganda and East Africa with excellence and Christian integrity since 2012.
