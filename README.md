@@ -1,5 +1,5 @@
 
-# Pactum Legal Chambers
+# Verbum Justice Center.
 
 A high-end, professionally designed web application for a premier Ugandan law firm. Pactum Legal Chambers is grounded in Christian values, prioritizes juvenile justice, and is dedicated to legal success through ethical excellence and professional stewardship.
 
