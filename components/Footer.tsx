@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             <h2 className="text-lg font-bold text-white tracking-tight">Verbum Justice Center.</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-sm">
-            Premium legal services grounded in the values of justice and stewardship. Serving Uganda and East Africa with excellence and Christian integrity since 2012.
+            Verbum Justice Center services grounded in the values of justice and stewardship. Serving Uganda and East Africa with excellence and Christian integrity since 2012.
           </p>
           <div className="flex gap-4">
             <a href="#" className="size-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-primary transition-colors">
