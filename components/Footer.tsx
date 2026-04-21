@@ -49,15 +49,12 @@ const Footer: React.FC = () => {
               <span>+256 752 146 252 / +256 789 171 032</span>
               
             </li>
-            <li className="flex gap-3">
-              <span className="material-symbols-outlined text-accent-gold">mail</span>
-              <span>info@pactumlegal.ug</span>
-            </li>
+           
           </ul>
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 text-center text-xs flex flex-col md:flex-row justify-between items-center gap-4">
-        <p>© 2026 Pactum Legal Chambers. All Rights Reserved. Regulated by the Uganda Law Council.</p>
+        <p>© 2026 Verbum Justice Center. All Rights Reserved. Regulated by the Uganda Law Council.</p>
         <div className="flex gap-6">
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Terms of Service</a>
