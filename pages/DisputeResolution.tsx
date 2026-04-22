@@ -45,10 +45,10 @@ const DisputeResolution: React.FC = () => {
     <div className="animate-in fade-in duration-700">
       {/* Hero Section */}
       <section className="relative py-24 bg-slate-900 flex items-center justify-center min-h-[50vh] overflow-hidden">
-        <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0 opacity-40">
           <img 
-            src="/talk1.jpeg"
-            className="w-full h-full object-cover"
+            src="/ronald.jpeg" 
+            className="w-full h-full object-cover object-top"
             alt="Success Stories Background"
           />
         </div>
