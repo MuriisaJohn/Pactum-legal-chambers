@@ -23,19 +23,19 @@ const COMMUNITY_HIGHLIGHTS = [
 
 const IMPACT_GALLERY = [
   {
-    src: '/assests/talk1.jpeg',
+    src: '/talk1.jpeg',
     alt: 'Lawyer speaking to a youth community gathering',
   },
   {
-    src: '/assests/children.jpeg',
+    src: '/children.jpeg',
     alt: 'Children participating in a community activity outdoors',
   },
   {
-    src: '/assests/child.jpeg',
+    src: '/child.jpeg',
     alt: 'Portrait of a vulnerable child beneficiary',
   },
   {
-    src: '/assests/talk2.jpeg',
+    src: '/talk2.jpeg',
     alt: 'Public advocacy and legal outreach in a large community setting',
   },
 ];
@@ -70,7 +70,7 @@ const About: React.FC = () => {
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
                 className="w-full h-full object-cover"
-                src="/assests/ronald.jpeg"
+                src="/ronald.jpeg"
                 alt="Legal advocate engaging with young people in the community"
               />
             </div>
