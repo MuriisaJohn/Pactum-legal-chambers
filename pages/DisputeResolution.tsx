@@ -8,7 +8,7 @@ const SUCCESS_STORIES = [
     title: 'Restoring Hope for a Youth in Conflict with the Law',
     description: 'We successfully advocated for the rehabilitation and reintegration of a 15-year-old facing minor charges, ensuring they could return to school instead of facing detention.',
     impact: 'Rehabilitation & Education Access',
-    image: '/child2.jpeg',
+    image: '#/child2.jpeg',
     icon: 'shield_child'
   },
   {
