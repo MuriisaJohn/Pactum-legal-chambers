@@ -78,7 +78,7 @@ const About: React.FC = () => {
           <div className="lg:col-span-7 flex flex-col justify-center">
             <div className="space-y-6 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
               <p>
-                At Pactum Legal Chambers, our work is deeply rooted in faith, dignity, and service. We stand with those who are too often unheard: children, youth, and vulnerable families who struggle to access justice.
+                At Verbum Justice center, our work is deeply rooted in faith, dignity, and service. We stand with those who are too often unheard: children, youth, and vulnerable families who struggle to access justice.
               </p>
               <div className="p-6 bg-primary/5 border-l-4 border-primary rounded-r-xl">
                 <p className="font-medium text-slate-900 dark:text-white">
