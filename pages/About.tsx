@@ -69,7 +69,7 @@ const About: React.FC = () => {
             <h3 className="text-3xl md:text-4xl font-bold leading-tight mb-8 dark:text-white">From the streets to the courtroom.</h3>
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 src="/ronald.jpeg"
                 alt="Legal advocate engaging with young people in the community"
               />
