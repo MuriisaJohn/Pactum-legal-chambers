@@ -5,7 +5,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: 'Home', path: '/' },
   { label: 'About Us', path: '/about' },
   { label: 'Practice Areas', path: '/practice-areas' },
-  { label: 'Dispute Resolution', path: '/dispute-resolution' },
+  { label: 'Success Stories', path: '/dispute-resolution' },
   { label: 'Contact', path: '/contact' },
 ];
 

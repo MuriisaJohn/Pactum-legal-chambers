@@ -1,79 +1,133 @@
 
 import React from 'react';
 
+const SUCCESS_STORIES = [
+  {
+    id: 1,
+    category: 'Juvenile Justice',
+    title: 'Restoring Hope for a Youth in Conflict with the Law',
+    description: 'We successfully advocated for the rehabilitation and reintegration of a 15-year-old facing minor charges, ensuring they could return to school instead of facing detention.',
+    impact: 'Rehabilitation & Education Access',
+    image: '/child2.jpeg',
+    icon: 'shield_child'
+  },
+  {
+    id: 2,
+    category: 'Family Law',
+    title: 'Securing a Stable Future for Vulnerable Siblings',
+    description: 'Our team provided legal representation in a complex guardianship case, securing a safe and loving environment for three children following the loss of their primary caregivers.',
+    impact: 'Safe Guardianship & Stability',
+    image: '/children.jpeg',
+    icon: 'family_restroom'
+  },
+  {
+    id: 3,
+    category: 'Community Outreach',
+    title: 'Empowering Communities through Legal Literacy',
+    description: 'Through our grassroots advocacy, we reached over 500 community members in rural areas, providing essential knowledge on child protection and legal rights.',
+    impact: 'Community Awareness & Empowerment',
+    image: '/talk2.jpeg',
+    icon: 'diversity_3'
+  },
+  {
+    id: 4,
+    category: 'Dispute Resolution',
+    title: 'Mediating a Complex Land Dispute with Integrity',
+    description: 'We facilitated a peaceful resolution between two families in a long-standing land dispute, avoiding years of costly litigation and preserving community harmony.',
+    impact: 'Peaceful Reconciliation',
+    image: '/pre.jpeg',
+    icon: 'handshake'
+  }
+];
+
 const DisputeResolution: React.FC = () => {
   return (
     <div className="animate-in fade-in duration-700">
-      {/* Hero */}
-      <section className="relative py-20 bg-[#0d121b] flex items-center justify-center min-h-[60vh] overflow-hidden">
-        <div className="absolute inset-0 opacity-40">
+      {/* Hero Section */}
+      <section className="relative py-24 bg-slate-900 flex items-center justify-center min-h-[50vh] overflow-hidden">
+        <div className="absolute inset-0 opacity-30">
           <img 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiQy3gAzyz1ZH-U8Gpjbyq7vR4HiGJ7NOQ-QKbS0nP_VPjRZ9R6ldGRN1MSKXijL0j36zc9Jykl-mlCAsbbBe9MDqAe6qSibMXXwJYLwWBgfYOHaLewK9qFM3j35tpw52x7NQCmm0GyNxzoYciX1yXtraEXo-QWZtLBS7pMUf2R0HAUzGNfkYMpdgGzBIiQpgvOcGtPFAKDUKEAnJFJ31gmrNuRSUGuunME6tKEwuj-cucx89f1-rfkKeT628hkhnHGkqxvaWMaBI"
+            src="/talk1.jpeg"
             className="w-full h-full object-cover"
-            alt="Mediation setting"
+            alt="Success Stories Background"
           />
         </div>
         <div className="relative z-10 text-center px-6 max-w-4xl">
-          <span className="inline-block px-4 py-1 bg-primary/20 backdrop-blur-md rounded-full text-xs font-bold text-primary uppercase tracking-widest mb-6">Specialized Practice</span>
-          <h1 className="text-4xl md:text-6xl font-serif text-white font-bold mb-6">Restoring Peace Through<br /><span className="text-accent-gold italic">Principled Resolution</span></h1>
+          <span className="inline-block px-4 py-1 bg-primary/20 backdrop-blur-md rounded-full text-xs font-bold text-primary uppercase tracking-widest mb-6 border border-primary/30">Impact & Results</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">Our <span className="text-accent-gold italic">Success Stories</span></h1>
           <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto">
-            Conflict doesn't have to be destructive. We navigate disputes with wisdom and integrity to achieve lasting harmony.
+            Every case we handle is a step toward a more just society. Explore how Verbum Justice Center is making a difference in the lives of the vulnerable.
           </p>
         </div>
       </section>
 
-      {/* Philosophy Section */}
+      {/* Narrative Section */}
       <section className="py-24 px-6 bg-white dark:bg-background-dark">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <h2 className="text-3xl font-bold dark:text-white">Our Approach: Beyond the Courtroom</h2>
+          <h2 className="text-3xl md:text-4xl font-bold dark:text-white">Justice in Action</h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            At Pactum Legal Chambers, we believe in reconciliation over retribution. Our dispute resolution practice is designed to provide calm, authoritative, and ethical pathways to harmony. We guide our clients through complex conflicts using tools that prioritize relationship preservation and cost-effectiveness.
+            At Verbum Justice Center, our success is measured by the lives restored and the rights protected. We stand at the forefront of legal advocacy for children, youth, and vulnerable families, turning legal challenges into stories of hope and restoration.
           </p>
         </div>
       </section>
 
-      {/* Services Grid */}
+      {/* Stories Grid */}
       <section className="py-24 bg-slate-50 dark:bg-slate-900/50">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div className="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-sm">
-            <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6">
-              <span className="material-symbols-outlined text-3xl">handshake</span>
-            </div>
-            <h3 className="text-xl font-bold mb-4 dark:text-white">Commercial Mediation</h3>
-            <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-              A voluntary, confidential process where our neutral mediators facilitate dialogue to reach a mutually beneficial settlement.
-            </p>
-            <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Preserves business relationships</li>
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Faster than traditional court cases</li>
-            </ul>
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {SUCCESS_STORIES.map((story) => (
+              <div key={story.id} className="group bg-white dark:bg-slate-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100 dark:border-slate-800 flex flex-col">
+                <div className="aspect-[16/9] overflow-hidden relative">
+                  <img 
+                    src={story.image} 
+                    alt={story.title} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className="px-3 py-1 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-lg text-[10px] font-black uppercase tracking-wider text-primary shadow-sm">
+                      {story.category}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-8 flex-grow flex flex-col">
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="size-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary">
+                      <span className="material-symbols-outlined text-xl">{story.icon}</span>
+                    </div>
+                    <h3 className="text-xl font-bold dark:text-white leading-tight">{story.title}</h3>
+                  </div>
+                  <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6 flex-grow">
+                    {story.description}
+                  </p>
+                  <div className="pt-6 border-t border-slate-100 dark:border-slate-800">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest">Key Impact</span>
+                      <span className="text-sm font-bold text-primary">{story.impact}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-          <div className="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-sm">
-            <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6">
-              <span className="material-symbols-outlined text-3xl">gavel</span>
-            </div>
-            <h3 className="text-xl font-bold mb-4 dark:text-white">Binding Arbitration</h3>
-            <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-              A private alternative to litigation where an impartial arbitrator makes a final, legally binding decision on the dispute.
-            </p>
-            <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Expert decision makers</li>
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Legally enforceable awards</li>
-            </ul>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-24 bg-white dark:bg-background-dark">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <div className="size-20 bg-primary/10 rounded-3xl flex items-center justify-center text-primary mx-auto mb-8">
+            <span className="material-symbols-outlined text-4xl">verified</span>
           </div>
-          <div className="p-8 rounded-2xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 shadow-sm">
-            <div className="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6">
-              <span className="material-symbols-outlined text-3xl">account_balance</span>
-            </div>
-            <h3 className="text-xl font-bold mb-4 dark:text-white">Strategic Litigation</h3>
-            <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">
-              When alternative routes are exhausted, we provide robust, ethical representation in civil courts across Uganda.
-            </p>
-            <ul className="space-y-3 text-sm text-slate-500 dark:text-slate-400">
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Rigorous legal research</li>
-              <li className="flex gap-2"><span className="material-symbols-outlined text-primary text-sm">check_circle</span> Principled advocacy</li>
-            </ul>
-          </div>
+          <h2 className="text-3xl md:text-5xl font-bold dark:text-white mb-6">Join Our Mission</h2>
+          <p className="text-lg text-slate-600 dark:text-slate-400 mb-10 leading-relaxed">
+            Every successful story is made possible through dedicated advocacy and community support. If you or someone you know needs legal assistance, we are here to help write the next chapter of justice.
+          </p>
+          <a 
+            href="/contact" 
+            className="inline-flex items-center justify-center rounded-2xl bg-primary px-10 py-5 text-lg font-bold text-white hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 gap-3"
+          >
+            Start Your Story <span className="material-symbols-outlined">arrow_forward</span>
+          </a>
         </div>
       </section>
     </div>
