@@ -8,7 +8,7 @@ const SUCCESS_STORIES = [
     title: 'Restoring Hope for a Youth in Conflict with the Law',
     description: 'We successfully advocated for the rehabilitation and reintegration of a 15-year-old facing minor charges, ensuring they could return to school instead of facing detention.',
     impact: 'Rehabilitation & Education Access',
-    image: '#/child2.jpeg',
+    image: '/child2.jpeg',
     icon: 'shield_child'
   },
   {
@@ -123,7 +123,7 @@ const DisputeResolution: React.FC = () => {
             Every successful story is made possible through dedicated advocacy and community support. If you or someone you know needs legal assistance, we are here to help write the next chapter of justice.
           </p>
           <a 
-            href="/contact" 
+            href="#/contact" 
             className="inline-flex items-center justify-center rounded-2xl bg-primary px-10 py-5 text-lg font-bold text-white hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 gap-3"
           >
             Start Your Story <span className="material-symbols-outlined">arrow_forward</span>
