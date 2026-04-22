@@ -12,13 +12,11 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-4 group shrink-0">
-          <div className="size-11 bg-primary flex items-center justify-center rounded-xl group-hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20">
-            <span className="material-symbols-outlined text-white text-3xl">balance</span>
-          </div>
-          <div className="flex flex-col">
-            <h1 className="text-2xl font-black tracking-tight text-primary dark:text-white leading-none">Verbum</h1>
-            <p className="text-[10px] font-bold tracking-[0.3em] text-accent-gold uppercase mt-1"> Justice Center.</p>
-          </div>
+          <img 
+            src="/Verbum Justice Center Polished Logo.png" 
+            alt="Verbum Justice Center Logo" 
+            className="h-16 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Nav - Centered */}

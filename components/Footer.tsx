@@ -8,10 +8,11 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-2 space-y-6">
           <div className="flex items-center gap-3">
-            <div className="size-8 bg-primary flex items-center justify-center rounded">
-              <span className="material-symbols-outlined text-white text-lg">gavel</span>
-            </div>
-            <h2 className="text-lg font-bold text-white tracking-tight">Verbum Justice Center.</h2>
+            <img 
+              src="/Verbum Justice Center Polished Logo.png" 
+              alt="Verbum Justice Center Logo" 
+              className="h-12 w-auto object-contain brightness-0 invert"
+            />
           </div>
           <p className="text-sm leading-relaxed max-w-sm">
             Verbum Justice Center services grounded in the values of justice and stewardship. Serving Uganda and East Africa with excellence and Christian integrity since 2012.
