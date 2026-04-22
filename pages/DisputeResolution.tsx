@@ -47,7 +47,7 @@ const DisputeResolution: React.FC = () => {
       <section className="relative py-24 bg-slate-900 flex items-center justify-center min-h-[50vh] overflow-hidden">
         <div className="absolute inset-0 opacity-40">
           <img 
-            src="/ronald.jpeg" 
+            src="https://images.unsplash.com/photo-1683187481079-fadf0e704ba1?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             className="w-full h-full object-cover object-top"
             alt="Success Stories Background"
           />
