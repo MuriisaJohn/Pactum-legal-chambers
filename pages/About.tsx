@@ -23,19 +23,19 @@ const COMMUNITY_HIGHLIGHTS = [
 
 const IMPACT_GALLERY = [
   {
-    src: 'https://images.unsplash.com/photo-1596464716127-f2a82984de30?auto=format&fit=crop&q=80&w=1200',
+    src: '/assests/talk1.jpeg',
     alt: 'Lawyer speaking to a youth community gathering',
   },
   {
-    src: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=1200',
+    src: '/assests/children.jpeg',
     alt: 'Children participating in a community activity outdoors',
   },
   {
-    src: 'https://images.unsplash.com/photo-1536337005238-94b997371b40?auto=format&fit=crop&q=80&w=1200',
+    src: '/assests/child.jpeg',
     alt: 'Portrait of a vulnerable child beneficiary',
   },
   {
-    src: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=1200',
+    src: '/assests/talk2.jpeg',
     alt: 'Public advocacy and legal outreach in a large community setting',
   },
 ];
@@ -70,7 +70,7 @@ const About: React.FC = () => {
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
                 className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=1200"
+                src="/assests/ronald.jpeg"
                 alt="Legal advocate engaging with young people in the community"
               />
             </div>
