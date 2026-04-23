@@ -37,6 +37,15 @@ const SUCCESS_STORIES = [
     impact: 'Peaceful Reconciliation',
     image: '/pre.jpeg',
     icon: 'handshake'
+  },
+  {
+    id: 5,
+    category: 'Adoption Services',
+    title: 'Creating Forever Families Through Legal Excellence',
+    description: 'We successfully facilitated both national and inter-country adoption cases, providing comprehensive legal guidance to families seeking to expand through adoption while ensuring the best interests of the children are protected.',
+    impact: 'Family Formation & Child Welfare',
+    image: '/child1.jpeg',
+    icon: 'favorite'
   }
 ];
 

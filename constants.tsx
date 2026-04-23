@@ -45,6 +45,14 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     features: ['Divorce & Separation', 'Probate & Wills', 'Child Custody']
   },
   {
+    id: 'adoption',
+    title: 'Adoption Services',
+    description: 'Compassionate and comprehensive legal support for national and inter-country adoption. We guide families through every step of the adoption process with care and expertise.',
+    icon: 'favorite',
+    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAFccJ-rsVqxgx2aHQ2OD-Vq7jwKEf4Bdc9uzr4G7YfKohTSC4V5Z6cmTvgqtj5fgDOtIUVb_gqQZv8NGhQz00HCUiff-X-p1ND5oYuWLcykNN4VEXjz1GiI3RR_YojetfEih9Wylp2-NWHZ3StgrAYoS-gp_MqkYQ5o5CO46oGtzcicMcbzCJwmx2TCx7pJoONXQO2WXceGu8DwoPz2weO9pI3RDIhBZcD_Na4unGFdL-H7hRuay_jN1z3oWhTgEg6Euw5fTsCBgw',
+    features: ['National Adoption', 'Inter-country Adoption', 'Legal Documentation']
+  },
+  {
     id: 'land-law',
     title: 'Land Law & Conveyancing',
     description: 'Strategic expertise in land acquisition, title processing, and complex real estate transactions within the Ugandan legal framework.',

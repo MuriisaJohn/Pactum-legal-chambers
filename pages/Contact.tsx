@@ -32,6 +32,11 @@ const PRACTICE_AREAS = [
     description: 'Legal literacy programs and rights awareness workshops for vulnerable communities.',
     icon: 'school',
   },
+  {
+    title: 'Adoption Services',
+    description: 'Comprehensive legal support for national and inter-country adoption with compassion and expertise.',
+    icon: 'favorite',
+  },
 ];
 
 const CONTACT_METHODS = [
