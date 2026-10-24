@@ -9,25 +9,25 @@ const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-[60] w-full bg-white/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-all duration-300">
-      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo Section */}
-        <Link to="/" className="flex items-center gap-4 group shrink-0">
-          <div className="size-11 bg-primary flex items-center justify-center rounded-xl group-hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20">
-            <span className="material-symbols-outlined text-white text-3xl">balance</span>
+        <Link to="/" className="flex items-center gap-3 group shrink-0">
+          <div className="size-9 bg-primary flex items-center justify-center rounded-lg group-hover:bg-primary-dark transition-all shadow-lg shadow-primary/20">
+            <span className="material-symbols-outlined text-white text-2xl">gavel</span>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-2xl font-black tracking-tight text-primary dark:text-white leading-none">Verbum</h1>
-            <p className="text-[10px] font-bold tracking-[0.3em] text-accent-gold uppercase mt-1"> Justice Center.</p>
+            <h1 className="text-xl font-black tracking-tight text-primary dark:text-white leading-none">Verbum</h1>
+            <p className="text-[9px] font-bold tracking-[0.3em] text-accent-gold uppercase mt-0.5">Justice Centre.</p>
           </div>
         </Link>
 
         {/* Desktop Nav - Centered */}
-        <nav className="hidden md:flex items-center justify-center gap-10 flex-grow">
+        <nav className="hidden md:flex items-center justify-center gap-8 flex-grow">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`text-[15px] font-bold tracking-wide transition-all duration-300 hover:text-primary ${
+              className={`text-[14px] font-bold tracking-wide transition-all duration-300 hover:text-primary ${
                 location.pathname === link.path 
                   ? 'text-primary' 
                   : 'text-slate-600 dark:text-slate-300'
@@ -39,19 +39,19 @@ const Navbar: React.FC = () => {
         </nav>
 
         {/* Right Side Actions */}
-        <div className="flex items-center gap-6 shrink-0">
+        <div className="flex items-center gap-4 shrink-0">
           <Link
             to="/contact"
-            className="hidden lg:flex items-center justify-center rounded-lg h-12 px-10 bg-primary text-white text-[15px] font-black hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20"
+            className="hidden lg:flex items-center justify-center rounded-lg h-10 px-8 bg-primary text-white text-[14px] font-black hover:bg-primary-dark transition-all shadow-xl shadow-primary/20"
           >
-            Consultation
+            Contact Us
           </Link>
 
           <button
             className="md:hidden text-slate-900 dark:text-white p-2"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <span className="material-symbols-outlined text-3xl">{isOpen ? 'close' : 'menu'}</span>
+            <span className="material-symbols-outlined text-2xl">{isOpen ? 'close' : 'menu'}</span>
           </button>
         </div>
       </div>
@@ -60,14 +60,12 @@ const Navbar: React.FC = () => {
       <div className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
         isOpen ? 'max-h-screen border-t border-slate-200 dark:border-slate-800' : 'max-h-0'
       }`}>
-        <nav className="bg-white dark:bg-background-dark px-6 py-8 flex flex-col gap-6">
+        <nav className="bg-white dark:bg-background-dark px-6 py-6 flex flex-col gap-5">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`text-xl font-bold ${
-                location.pathname === link.path ? 'text-primary' : 'text-slate-600 dark:text-slate-300'
-              }`}
+              className={`text-lg font-bold ${location.pathname === link.path ? 'text-primary' : 'text-slate-600 dark:text-slate-300'}`}
               onClick={() => setIsOpen(false)}
             >
               {link.label}
@@ -75,10 +73,10 @@ const Navbar: React.FC = () => {
           ))}
           <Link
             to="/contact"
-            className="bg-primary text-white py-5 rounded-xl text-center font-bold text-lg shadow-xl"
+            className="bg-primary text-white py-4 rounded-xl text-center font-bold text-lg shadow-xl mt-2"
             onClick={() => setIsOpen(false)}
           >
-            Book Consultation
+            Contact Us
           </Link>
         </nav>
       </div>

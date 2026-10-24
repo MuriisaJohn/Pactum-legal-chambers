@@ -1,11 +1,13 @@
 
-export interface PracticeArea {
+export interface Programme {
   id: string;
   title: string;
+  subtitle: string;
   description: string;
   icon: string;
   imageUrl: string;
-  features?: string[];
+  services: string[];
+  philosophy?: string;
 }
 
 export interface NavLink {

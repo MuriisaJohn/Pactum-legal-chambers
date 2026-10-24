@@ -1,47 +1,53 @@
 
-# Verbum Justice Center.
+# Verbum Justice Centre.
 
-A high-end, professionally designed web application for a premier Ugandan law firm. Pactum Legal Chambers is grounded in Christian values, prioritizes juvenile justice, and is dedicated to legal success through ethical excellence and professional stewardship.
+A Christian, child-focused organisation committed to protecting the rights of children, promoting access to justice, and rehabilitating children and young people in Uganda.
 
-## 🏛️ About the Project
+## 🏛️ About the Organisation
 
-This project serves as the digital home for Pactum Legal Chambers, a law firm based in Rubaga, Kampala. The application focuses on conveying trust, authority, and moral integrity through a "Cinematic Architectural" design language. It is optimized for local SEO in the legal sector and provides a seamless experience for clients seeking consultation. 
+Verbum Justice Centre is grounded in Christian values of dignity, compassion, accountability, and restoration. We believe that no child should be defined by their mistakes, circumstances, or past experiences. Our work focuses on:
 
-A central cornerstone of the firm is **Juvenile Justice and Child Rights**, actively representing children in conflict with the law to fight for their rehabilitation and futures. The firm also offers expert services in Land Law, Family Law, Corporate Law, and Dispute Resolution.
-
-### Core Philosophy
-- **Justice**: Truth without compromise, and fierce advocacy for the marginalized and vulnerable youth.
-- **Integrity**: Radical transparency and honesty.
-- **Stewardship**: Legal expertise as a gift for community benefit.
+- **Child Justice & Legal Aid** — Legal representation and advocacy for children in conflict with the law
+- **Drug & Substance Use Rehabilitation** — Recovery-oriented interventions and psychosocial support
+- **Child & Youth Rehabilitation** — Addressing the challenges behind behaviour
+- **Street-Connected Children & Vulnerable Families** — Reaching children where they are
+- **Family Strengthening & Community Reintegration** — Building stronger families, creating safer communities
+- **Christian Mentorship & Character Development** — Faith that serves, values that transform
 
 ## 🛠️ Tech Stack
 
-This application is built with a modern, performant, and lightweight frontend stack:
-
-- **Framework**: [React 19](https://react.dev/) - Utilizing the latest features for UI management.
-- **Language**: [TypeScript](https://www.typescriptlang.org/) - Ensuring type safety and maintainable code.
-- **Styling**: [Tailwind CSS 3.x](https://tailwindcss.com/) - Custom-configured with a "Cinematic Mesh" palette and dark mode support.
-- **Routing**: [React Router 7](https://reactrouter.com/) - Client-side routing with `HashRouter` for reliable static deployment.
-- **Icons**: [Google Material Symbols](https://fonts.google.com/icons) - Variable-weight iconography.
+- **Framework**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Custom-configured with dark mode support
+- **Routing**: [React Router 7](https://reactrouter.com/)
+- **Icons**: [Google Material Symbols](https://fonts.google.com/icons)
 - **Typography**: 
-  - *Playfair Display*: Elegant serif for headings and legal gravitas.
-  - *Inter*: High-readability sans-serif for body content and interface elements.
-- **SEO & Metadata**: 
-  - Comprehensive Open Graph (OG) and Twitter Card integration.
-  - **JSON-LD Structured Data**: Optimized for Google Local Business and LegalService search rankings.
+  - *Playfair Display*: Elegant serif for headings
+  - *Inter*: High-readability sans-serif for body content
+- **SEO & Metadata**: Open Graph, Twitter Cards, and JSON-LD structured data
 
-## ✨ Key Features
+## 🚀 Getting Started
 
-- **Architectural Transitions**: Custom-engineered multi-layered SVG curves that create a physical sense of "depth" and "layering" between page sections.
-- **Cinematic Hero System**: A dynamic slideshow with mesh gradient overlays and high-impact typography.
-- **Responsive Design**: Fully fluid layouts that maintain professional aesthetics from mobile devices to ultra-wide 4K monitors.
-- **Dark Mode Support**: Context-aware styling for comfortable reading in low-light environments.
-- **SEO Optimization**: Optimized meta-tags and semantic HTML to improve visibility in the Ugandan legal market.
+```bash
+npm install
+npm run dev
+```
 
-## 🚀 Deployment
+The development server will start at `http://localhost:3001` (or the next available port).
 
-The project is designed for native ES Module (ESM) loading, meaning it can be deployed to static hosts like Vercel, Netlify, or GitHub Pages without a heavy build step, leveraging browser-native `importmap` capabilities.
+## 📄 Pages
+
+- **Home** (`/`) — Hero, mission overview, values, programmes, and approach
+- **About Us** (`/about`) — Who we are, Christian foundation, vision, mission, and values
+- **Programmes** (`/programmes`) — All six programmes with detailed services
+- **Contact** (`/contact`) — Contact methods, location, and call to action
+
+## 📬 Contact
+
+- **Email**: info@verbumjusticecentre.org
+- **Phone**: +256 752 146 252
+- **Address**: Plot 822, Rubaga Road, Kampala, Uganda
 
 ---
 
-*Regulated by the Uganda Law Council.*
+*"Every child deserves justice. Every young person deserves a second chance."*

@@ -1,12 +1,11 @@
 
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar.tsx';
 import Footer from './components/Footer.tsx';
 import Home from './pages/Home.tsx';
 import About from './pages/About.tsx';
-import PracticeAreas from './pages/PracticeAreas.tsx';
-import DisputeResolution from './pages/DisputeResolution.tsx';
+import Programmes from './pages/Programmes.tsx';
 import Contact from './pages/Contact.tsx';
 
 const ScrollToTop = () => {
@@ -27,8 +26,9 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/practice-areas" element={<PracticeAreas />} />
-            <Route path="/dispute-resolution" element={<DisputeResolution />} />
+            <Route path="/programmes" element={<Programmes />} />
+            <Route path="/dispute-resolution" element={<Navigate to="/programmes" replace />} />
+            <Route path="/practice-areas" element={<Navigate to="/programmes" replace />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
